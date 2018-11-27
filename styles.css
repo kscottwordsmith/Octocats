@@ -1,0 +1,67 @@
+html {box-sizing:border-box;}
+*, *::after, *::before {box-sizing:inherit;}
+
+.octodex {
+	display:flex;
+}
+
+li {
+	list-style: none;
+}
+
+.octocat {
+	border-bottom: 2px solid rgb(197, 197, 197);
+	margin-right: 35px;
+
+}
+
+.octocat img {
+	border: 2px solid rgb(197, 197, 197);
+	height: 425px;
+}
+
+.image-footer {
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.image-number::before {
+	content:"#";
+}
+
+.authors {
+	display:flex;
+	justify-content:flex-end;
+}
+
+.image-number {
+	color:rgb(197, 197, 197);
+	font-weight: bold;
+	font-family: "Helvetica", "Arial", sans-serif;
+	margin-left: 5px;
+}
+
+.image-caption {
+	color:rgb(197, 197, 197);
+	font-weight: bold;
+	font-family: "Helvetica", "Arial", sans-serif;
+	display:flex;
+	align-items: center;
+}
+
+.image-caption a {
+	text-decoration:none;
+	color:rgb(0, 0, 0);
+	font-family: "Helvetica", "Arial", sans-serif;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	align-items: center;
+}
+
+.authors img{
+	height: 35px;
+	border:none;
+	margin-left: -15px;
+	padding: 0px;
+}
