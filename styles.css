@@ -3,6 +3,7 @@ html {box-sizing:border-box;}
 
 .octodex {
 	display:flex;
+	flex-wrap: wrap;
 }
 
 li {
@@ -12,12 +13,13 @@ li {
 .octocat {
 	border-bottom: 2px solid rgb(197, 197, 197);
 	margin-right: 35px;
+	margin-bottom: 35px;
 
 }
 
 .octocat img {
 	border: 2px solid rgb(197, 197, 197);
-	height: 425px;
+	height: 415px;
 }
 
 .image-footer {
